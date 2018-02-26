@@ -7,8 +7,7 @@ class Dog
     @all << self
   end
   def self.all
-    @all.each {|do|
-      puts dog.name}
+    @all.each { |do| puts dog.name}
     end
   end
   def self.clear_all
